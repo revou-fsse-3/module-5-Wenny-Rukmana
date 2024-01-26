@@ -1,0 +1,36 @@
+.nav-parent-container {
+  background-color: rgb(199, 237, 102);
+  width: 50vw;
+  margin: 0 auto;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-parent-container ul {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  font-size: 1em;
+}
+
+.nav-parent-container ul li {
+  padding: 20px 20px;
+  margin-inline: 20px;
+}
+
+.nav-parent-container ul li:hover {
+  color: rgb(85, 85, 85);
+}
+
+.nav-parent-container ul li:hover,
+.nav-parent-container ul li:focus {
+  color: rgb(22, 36, 240);
+}
+
+.active-nav {
+  background-color: rgb(52, 52, 52);
+  color: rgb(235, 235, 235);
+  padding: 20px 20px;
+}
